@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  snap:
+    build:
+      context: .
+    ports:
+      - 1705:1705
+      - 1704:1704
+      - 1780:1780
+
